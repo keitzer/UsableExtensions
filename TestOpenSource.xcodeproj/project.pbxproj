@@ -7,12 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1082CD5A6BDB4CC27E7D8DAD /* Pods_TestOpenSourceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B4698704AB92584E7C0AF /* Pods_TestOpenSourceTests.framework */; };
+		37A7680B05BE78DD5AF4BDEB /* Pods_TestOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67285C9B54B644E464301C /* Pods_TestOpenSource.framework */; };
 		FE66472C1E51D4AA0010E73C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66472B1E51D4AA0010E73C /* AppDelegate.swift */; };
 		FE66472E1E51D4AA0010E73C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66472D1E51D4AA0010E73C /* ViewController.swift */; };
 		FE6647311E51D4AA0010E73C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE66472F1E51D4AA0010E73C /* Main.storyboard */; };
 		FE6647331E51D4AA0010E73C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6647321E51D4AA0010E73C /* Assets.xcassets */; };
 		FE6647361E51D4AA0010E73C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6647341E51D4AA0010E73C /* LaunchScreen.storyboard */; };
-		FE6647411E51D4AA0010E73C /* TestOpenSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6647401E51D4AA0010E73C /* TestOpenSourceTests.swift */; };
+		FE66475E1E51D5FB0010E73C /* XYZAlertDisplayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6647531E51D5FB0010E73C /* XYZAlertDisplayerTests.swift */; };
+		FE66475F1E51D5FB0010E73C /* XYZDate+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6647541E51D5FB0010E73C /* XYZDate+ExtensionTests.swift */; };
+		FE6647611E51D5FB0010E73C /* XYZDouble+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6647561E51D5FB0010E73C /* XYZDouble+ExtensionTests.swift */; };
+		FE6647621E51D5FB0010E73C /* XYZInt+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6647571E51D5FB0010E73C /* XYZInt+ExtensionTests.swift */; };
+		FE6647631E51D5FB0010E73C /* XYZMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6647581E51D5FB0010E73C /* XYZMapperTests.swift */; };
+		FE6647641E51D5FB0010E73C /* XYZMockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6647591E51D5FB0010E73C /* XYZMockable.swift */; };
+		FE6647651E51D5FB0010E73C /* XYZMocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66475A1E51D5FB0010E73C /* XYZMocker.swift */; };
+		FE6647661E51D5FB0010E73C /* XYZMockMatchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66475B1E51D5FB0010E73C /* XYZMockMatchers.swift */; };
+		FE6647671E51D5FB0010E73C /* XYZString+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66475C1E51D5FB0010E73C /* XYZString+ExtensionTests.swift */; };
+		FE6647681E51D5FB0010E73C /* XYZUIColor+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66475D1E51D5FB0010E73C /* XYZUIColor+ExtensionTests.swift */; };
+		FEFF230F1E51D6B200A5B8DF /* XYZAlertDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF23071E51D6B200A5B8DF /* XYZAlertDisplayer.swift */; };
+		FEFF23101E51D6B200A5B8DF /* XYZDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF23081E51D6B200A5B8DF /* XYZDate+Extension.swift */; };
+		FEFF23121E51D6B200A5B8DF /* XYZDouble+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF230A1E51D6B200A5B8DF /* XYZDouble+Extension.swift */; };
+		FEFF23131E51D6B200A5B8DF /* XYZInt+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF230B1E51D6B200A5B8DF /* XYZInt+Extension.swift */; };
+		FEFF23141E51D6B200A5B8DF /* XYZMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF230C1E51D6B200A5B8DF /* XYZMapper.swift */; };
+		FEFF23151E51D6B200A5B8DF /* XYZString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF230D1E51D6B200A5B8DF /* XYZString+Extension.swift */; };
+		FEFF23161E51D6B200A5B8DF /* XYZUIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF230E1E51D6B200A5B8DF /* XYZUIColor+Extension.swift */; };
+		FEFF23181E51D82E00A5B8DF /* XYZNumber+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF23171E51D82E00A5B8DF /* XYZNumber+Extension.swift */; };
+		FEFF231A1E51D83500A5B8DF /* XYZNumber+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF23191E51D83500A5B8DF /* XYZNumber+ExtensionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		065B4F13D60ECA1C1B81C04D /* Pods-TestOpenSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestOpenSource.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestOpenSource/Pods-TestOpenSource.release.xcconfig"; sourceTree = "<group>"; };
+		5C67285C9B54B644E464301C /* Pods_TestOpenSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestOpenSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98BFF5317D66318E48B93530 /* Pods-TestOpenSourceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestOpenSourceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestOpenSourceTests/Pods-TestOpenSourceTests.release.xcconfig"; sourceTree = "<group>"; };
+		D92E4A5DBD387C1587FBA8CF /* Pods-TestOpenSource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestOpenSource.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestOpenSource/Pods-TestOpenSource.debug.xcconfig"; sourceTree = "<group>"; };
+		DD01E6114C5F09858DF91AA1 /* Pods-TestOpenSourceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestOpenSourceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestOpenSourceTests/Pods-TestOpenSourceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F20B4698704AB92584E7C0AF /* Pods_TestOpenSourceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestOpenSourceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6647281E51D4AA0010E73C /* TestOpenSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOpenSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE66472B1E51D4AA0010E73C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE66472D1E51D4AA0010E73C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,8 +60,26 @@
 		FE6647351E51D4AA0010E73C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE6647371E51D4AA0010E73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE66473C1E51D4AA0010E73C /* TestOpenSourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOpenSourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE6647401E51D4AA0010E73C /* TestOpenSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOpenSourceTests.swift; sourceTree = "<group>"; };
 		FE6647421E51D4AA0010E73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6647531E51D5FB0010E73C /* XYZAlertDisplayerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XYZAlertDisplayerTests.swift; path = "Test Code/XYZAlertDisplayerTests.swift"; sourceTree = "<group>"; };
+		FE6647541E51D5FB0010E73C /* XYZDate+ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "XYZDate+ExtensionTests.swift"; path = "Test Code/XYZDate+ExtensionTests.swift"; sourceTree = "<group>"; };
+		FE6647561E51D5FB0010E73C /* XYZDouble+ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "XYZDouble+ExtensionTests.swift"; path = "Test Code/XYZDouble+ExtensionTests.swift"; sourceTree = "<group>"; };
+		FE6647571E51D5FB0010E73C /* XYZInt+ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "XYZInt+ExtensionTests.swift"; path = "Test Code/XYZInt+ExtensionTests.swift"; sourceTree = "<group>"; };
+		FE6647581E51D5FB0010E73C /* XYZMapperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XYZMapperTests.swift; path = "Test Code/XYZMapperTests.swift"; sourceTree = "<group>"; };
+		FE6647591E51D5FB0010E73C /* XYZMockable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XYZMockable.swift; path = "Test Code/XYZMockable.swift"; sourceTree = "<group>"; };
+		FE66475A1E51D5FB0010E73C /* XYZMocker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XYZMocker.swift; path = "Test Code/XYZMocker.swift"; sourceTree = "<group>"; };
+		FE66475B1E51D5FB0010E73C /* XYZMockMatchers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XYZMockMatchers.swift; path = "Test Code/XYZMockMatchers.swift"; sourceTree = "<group>"; };
+		FE66475C1E51D5FB0010E73C /* XYZString+ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "XYZString+ExtensionTests.swift"; path = "Test Code/XYZString+ExtensionTests.swift"; sourceTree = "<group>"; };
+		FE66475D1E51D5FB0010E73C /* XYZUIColor+ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "XYZUIColor+ExtensionTests.swift"; path = "Test Code/XYZUIColor+ExtensionTests.swift"; sourceTree = "<group>"; };
+		FEFF23071E51D6B200A5B8DF /* XYZAlertDisplayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XYZAlertDisplayer.swift; path = "Production Code/XYZAlertDisplayer.swift"; sourceTree = "<group>"; };
+		FEFF23081E51D6B200A5B8DF /* XYZDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "XYZDate+Extension.swift"; path = "Production Code/XYZDate+Extension.swift"; sourceTree = "<group>"; };
+		FEFF230A1E51D6B200A5B8DF /* XYZDouble+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "XYZDouble+Extension.swift"; path = "Production Code/XYZDouble+Extension.swift"; sourceTree = "<group>"; };
+		FEFF230B1E51D6B200A5B8DF /* XYZInt+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "XYZInt+Extension.swift"; path = "Production Code/XYZInt+Extension.swift"; sourceTree = "<group>"; };
+		FEFF230C1E51D6B200A5B8DF /* XYZMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XYZMapper.swift; path = "Production Code/XYZMapper.swift"; sourceTree = "<group>"; };
+		FEFF230D1E51D6B200A5B8DF /* XYZString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "XYZString+Extension.swift"; path = "Production Code/XYZString+Extension.swift"; sourceTree = "<group>"; };
+		FEFF230E1E51D6B200A5B8DF /* XYZUIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "XYZUIColor+Extension.swift"; path = "Production Code/XYZUIColor+Extension.swift"; sourceTree = "<group>"; };
+		FEFF23171E51D82E00A5B8DF /* XYZNumber+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XYZNumber+Extension.swift"; sourceTree = "<group>"; };
+		FEFF23191E51D83500A5B8DF /* XYZNumber+ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XYZNumber+ExtensionTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A7680B05BE78DD5AF4BDEB /* Pods_TestOpenSource.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +95,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1082CD5A6BDB4CC27E7D8DAD /* Pods_TestOpenSourceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEAF448695889ACC4C9C78EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D92E4A5DBD387C1587FBA8CF /* Pods-TestOpenSource.debug.xcconfig */,
+				065B4F13D60ECA1C1B81C04D /* Pods-TestOpenSource.release.xcconfig */,
+				DD01E6114C5F09858DF91AA1 /* Pods-TestOpenSourceTests.debug.xcconfig */,
+				98BFF5317D66318E48B93530 /* Pods-TestOpenSourceTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4E32661913269CC26F8BADF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C67285C9B54B644E464301C /* Pods_TestOpenSource.framework */,
+				F20B4698704AB92584E7C0AF /* Pods_TestOpenSourceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE66471F1E51D4AA0010E73C = {
 			isa = PBXGroup;
 			children = (
 				FE66472A1E51D4AA0010E73C /* TestOpenSource */,
 				FE66473F1E51D4AA0010E73C /* TestOpenSourceTests */,
 				FE6647291E51D4AA0010E73C /* Products */,
+				BEAF448695889ACC4C9C78EE /* Pods */,
+				E4E32661913269CC26F8BADF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +145,14 @@
 		FE66472A1E51D4AA0010E73C /* TestOpenSource */ = {
 			isa = PBXGroup;
 			children = (
+				FEFF23171E51D82E00A5B8DF /* XYZNumber+Extension.swift */,
+				FEFF23071E51D6B200A5B8DF /* XYZAlertDisplayer.swift */,
+				FEFF23081E51D6B200A5B8DF /* XYZDate+Extension.swift */,
+				FEFF230A1E51D6B200A5B8DF /* XYZDouble+Extension.swift */,
+				FEFF230B1E51D6B200A5B8DF /* XYZInt+Extension.swift */,
+				FEFF230C1E51D6B200A5B8DF /* XYZMapper.swift */,
+				FEFF230D1E51D6B200A5B8DF /* XYZString+Extension.swift */,
+				FEFF230E1E51D6B200A5B8DF /* XYZUIColor+Extension.swift */,
 				FE66472B1E51D4AA0010E73C /* AppDelegate.swift */,
 				FE66472D1E51D4AA0010E73C /* ViewController.swift */,
 				FE66472F1E51D4AA0010E73C /* Main.storyboard */,
@@ -90,7 +166,17 @@
 		FE66473F1E51D4AA0010E73C /* TestOpenSourceTests */ = {
 			isa = PBXGroup;
 			children = (
-				FE6647401E51D4AA0010E73C /* TestOpenSourceTests.swift */,
+				FEFF23191E51D83500A5B8DF /* XYZNumber+ExtensionTests.swift */,
+				FE6647531E51D5FB0010E73C /* XYZAlertDisplayerTests.swift */,
+				FE6647541E51D5FB0010E73C /* XYZDate+ExtensionTests.swift */,
+				FE6647561E51D5FB0010E73C /* XYZDouble+ExtensionTests.swift */,
+				FE6647571E51D5FB0010E73C /* XYZInt+ExtensionTests.swift */,
+				FE6647581E51D5FB0010E73C /* XYZMapperTests.swift */,
+				FE6647591E51D5FB0010E73C /* XYZMockable.swift */,
+				FE66475A1E51D5FB0010E73C /* XYZMocker.swift */,
+				FE66475B1E51D5FB0010E73C /* XYZMockMatchers.swift */,
+				FE66475C1E51D5FB0010E73C /* XYZString+ExtensionTests.swift */,
+				FE66475D1E51D5FB0010E73C /* XYZUIColor+ExtensionTests.swift */,
 				FE6647421E51D4AA0010E73C /* Info.plist */,
 			);
 			path = TestOpenSourceTests;
@@ -103,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE6647451E51D4AA0010E73C /* Build configuration list for PBXNativeTarget "TestOpenSource" */;
 			buildPhases = (
+				0CF05A0C129E523AA183B4DC /* [CP] Check Pods Manifest.lock */,
 				FE6647241E51D4AA0010E73C /* Sources */,
 				FE6647251E51D4AA0010E73C /* Frameworks */,
 				FE6647261E51D4AA0010E73C /* Resources */,
+				8ADE2F4C6E44A745461C8FCA /* [CP] Embed Pods Frameworks */,
+				48024CE74FA364FBBDBB4E62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE6647481E51D4AA0010E73C /* Build configuration list for PBXNativeTarget "TestOpenSourceTests" */;
 			buildPhases = (
+				594F7CBA4A116DD832E45E30 /* [CP] Check Pods Manifest.lock */,
 				FE6647381E51D4AA0010E73C /* Sources */,
 				FE6647391E51D4AA0010E73C /* Frameworks */,
 				FE66473A1E51D4AA0010E73C /* Resources */,
+				BEDF5D153AB85674EB84BCEC /* [CP] Embed Pods Frameworks */,
+				1925F8CA896F5004B1E1BD4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -150,6 +242,7 @@
 					};
 					FE66473B1E51D4AA0010E73C = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = FE6647271E51D4AA0010E73C;
 					};
@@ -194,13 +287,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CF05A0C129E523AA183B4DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1925F8CA896F5004B1E1BD4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestOpenSourceTests/Pods-TestOpenSourceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48024CE74FA364FBBDBB4E62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestOpenSource/Pods-TestOpenSource-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		594F7CBA4A116DD832E45E30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8ADE2F4C6E44A745461C8FCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestOpenSource/Pods-TestOpenSource-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDF5D153AB85674EB84BCEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestOpenSourceTests/Pods-TestOpenSourceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE6647241E51D4AA0010E73C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEFF23121E51D6B200A5B8DF /* XYZDouble+Extension.swift in Sources */,
 				FE66472E1E51D4AA0010E73C /* ViewController.swift in Sources */,
+				FEFF23141E51D6B200A5B8DF /* XYZMapper.swift in Sources */,
 				FE66472C1E51D4AA0010E73C /* AppDelegate.swift in Sources */,
+				FEFF230F1E51D6B200A5B8DF /* XYZAlertDisplayer.swift in Sources */,
+				FEFF23101E51D6B200A5B8DF /* XYZDate+Extension.swift in Sources */,
+				FEFF23161E51D6B200A5B8DF /* XYZUIColor+Extension.swift in Sources */,
+				FEFF23131E51D6B200A5B8DF /* XYZInt+Extension.swift in Sources */,
+				FEFF23181E51D82E00A5B8DF /* XYZNumber+Extension.swift in Sources */,
+				FEFF23151E51D6B200A5B8DF /* XYZString+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +402,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE6647411E51D4AA0010E73C /* TestOpenSourceTests.swift in Sources */,
+				FE6647651E51D5FB0010E73C /* XYZMocker.swift in Sources */,
+				FE6647681E51D5FB0010E73C /* XYZUIColor+ExtensionTests.swift in Sources */,
+				FE66475E1E51D5FB0010E73C /* XYZAlertDisplayerTests.swift in Sources */,
+				FE6647611E51D5FB0010E73C /* XYZDouble+ExtensionTests.swift in Sources */,
+				FE66475F1E51D5FB0010E73C /* XYZDate+ExtensionTests.swift in Sources */,
+				FE6647631E51D5FB0010E73C /* XYZMapperTests.swift in Sources */,
+				FE6647641E51D5FB0010E73C /* XYZMockable.swift in Sources */,
+				FE6647661E51D5FB0010E73C /* XYZMockMatchers.swift in Sources */,
+				FEFF231A1E51D83500A5B8DF /* XYZNumber+ExtensionTests.swift in Sources */,
+				FE6647671E51D5FB0010E73C /* XYZString+ExtensionTests.swift in Sources */,
+				FE6647621E51D5FB0010E73C /* XYZInt+ExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +541,7 @@
 		};
 		FE6647461E51D4AA0010E73C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D92E4A5DBD387C1587FBA8CF /* Pods-TestOpenSource.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestOpenSource/Info.plist;
@@ -349,6 +554,7 @@
 		};
 		FE6647471E51D4AA0010E73C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 065B4F13D60ECA1C1B81C04D /* Pods-TestOpenSource.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestOpenSource/Info.plist;
@@ -361,13 +567,17 @@
 		};
 		FE6647491E51D4AA0010E73C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD01E6114C5F09858DF91AA1 /* Pods-TestOpenSourceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestOpenSourceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.TestOpenSourceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestOpenSource.app/TestOpenSource";
 			};
@@ -375,13 +585,16 @@
 		};
 		FE66474A1E51D4AA0010E73C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98BFF5317D66318E48B93530 /* Pods-TestOpenSourceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestOpenSourceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.TestOpenSourceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestOpenSource.app/TestOpenSource";
 			};
@@ -406,6 +619,7 @@
 				FE6647471E51D4AA0010E73C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE6647481E51D4AA0010E73C /* Build configuration list for PBXNativeTarget "TestOpenSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +628,7 @@
 				FE66474A1E51D4AA0010E73C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
